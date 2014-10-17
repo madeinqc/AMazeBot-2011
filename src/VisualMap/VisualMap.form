@@ -1,0 +1,172 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" min="-2" pref="27" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="970" max="-2" attributes="0"/>
+                  <EmptySpace pref="13" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="660" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jScrollPane1" alignment="0" min="-2" pref="704" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+            <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+            <Property name="alignmentX" type="float" value="0.0"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+            <Property name="doubleBuffered" type="boolean" value="true"/>
+            <Property name="horizontalScrollBar" type="javax.swing.JScrollBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="null"/>
+            </Property>
+            <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+            <Property name="wheelScrollingEnabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="44" rowCount="44">
+                    <Column editable="true" title="1" type="java.lang.Object"/>
+                    <Column editable="true" title="2" type="java.lang.Object"/>
+                    <Column editable="true" title="3" type="java.lang.Object"/>
+                    <Column editable="true" title="4" type="java.lang.Object"/>
+                    <Column editable="true" title="5" type="java.lang.Object"/>
+                    <Column editable="true" title="6" type="java.lang.Object"/>
+                    <Column editable="true" title="7" type="java.lang.Object"/>
+                    <Column editable="true" title="8" type="java.lang.Object"/>
+                    <Column editable="true" title="9" type="java.lang.Object"/>
+                    <Column editable="true" title="10" type="java.lang.Object"/>
+                    <Column editable="true" title="11" type="java.lang.Object"/>
+                    <Column editable="true" title="12" type="java.lang.Object"/>
+                    <Column editable="true" title="13" type="java.lang.Object"/>
+                    <Column editable="true" title="14" type="java.lang.Object"/>
+                    <Column editable="true" title="15" type="java.lang.Object"/>
+                    <Column editable="true" title="16" type="java.lang.Object"/>
+                    <Column editable="true" title="17" type="java.lang.Object"/>
+                    <Column editable="true" title="18" type="java.lang.Object"/>
+                    <Column editable="true" title="19" type="java.lang.Object"/>
+                    <Column editable="true" title="20" type="java.lang.Object"/>
+                    <Column editable="true" title="21" type="java.lang.Object"/>
+                    <Column editable="true" title="22" type="java.lang.Object"/>
+                    <Column editable="true" title="23" type="java.lang.Object"/>
+                    <Column editable="true" title="24" type="java.lang.Object"/>
+                    <Column editable="true" title="25" type="java.lang.Object"/>
+                    <Column editable="true" title="26" type="java.lang.Object"/>
+                    <Column editable="true" title="27" type="java.lang.Object"/>
+                    <Column editable="true" title="28" type="java.lang.Object"/>
+                    <Column editable="true" title="29" type="java.lang.Object"/>
+                    <Column editable="true" title="30" type="java.lang.Object"/>
+                    <Column editable="true" title="31" type="java.lang.Object"/>
+                    <Column editable="true" title="32" type="java.lang.Object"/>
+                    <Column editable="true" title="33" type="java.lang.Object"/>
+                    <Column editable="true" title="34" type="java.lang.Object"/>
+                    <Column editable="true" title="35" type="java.lang.Object"/>
+                    <Column editable="true" title="36" type="java.lang.Object"/>
+                    <Column editable="true" title="37" type="java.lang.Object"/>
+                    <Column editable="true" title="38" type="java.lang.Object"/>
+                    <Column editable="true" title="39" type="java.lang.Object"/>
+                    <Column editable="true" title="40" type="java.lang.Object"/>
+                    <Column editable="true" title="41" type="java.lang.Object"/>
+                    <Column editable="true" title="42" type="java.lang.Object"/>
+                    <Column editable="true" title="43" type="java.lang.Object"/>
+                    <Column editable="true" title="44" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="name" type="java.lang.String" value="grid" noResource="true"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                <Property name="rowHeight" type="int" value="15"/>
+                <Property name="rowSelectionAllowed" type="boolean" value="false"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                </Property>
+                <Property name="updateSelectionOnSort" type="boolean" value="false"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="grid"/>
+                <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.RADVisualComponent$AccessibleParentEditor">
+                  <ComponentRef name="Form"/>
+                </Property>
+              </AccessibilityProperties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="jTextPane1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1&#xa;2&#xa;3&#xa;4&#xa;5&#xa;6&#xa;7&#xa;8&#xa;&#xa;9&#xa;10&#xa;11&#xa;12&#xa;13&#xa;14&#xa;15&#xa;16&#xa;17&#xa;18&#xa;19&#xa;20&#xa;21&#xa;22&#xa;&#xa;23&#xa;24&#xa;25&#xa;26&#xa;27&#xa;28&#xa;29&#xa;30&#xa;31&#xa;32&#xa;33&#xa;34&#xa;35&#xa;36&#xa;37&#xa;38&#xa;39&#xa;40&#xa;41&#xa;42&#xa;43&#xa;44"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

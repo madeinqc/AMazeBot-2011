@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>AMazeBot 2011 v1.4 ReadMe</title>
+<style type="text/css">
+<!--
+body
+{
+	background: #F0F0F0;
+	color: #333;
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+code
+{
+	font-family: Consolas, Monaco, "Lucida Console", monospace;
+	font-size: 100%;
+}
+hr
+{
+	border: none;
+	border-top: solid 2px #FFF;
+	border-bottom: solid 2px #CCC;
+}
+h1
+{
+	color: #111;
+	background-color: #F8F8F8;
+	padding: 0 10px 2px 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-bottom: 2px solid white;
+}
+
+
+li.version
+{
+	margin-bottom: 1em;
+}
+
+.addendum
+{
+	color: #999;
+	font-size: 80%;
+}
+-->
+</style>
+</head>
+<body>
+<h1>AMazeBot 2011 v1.4 ReadMe</h1>
+
+<p>Please see the website (<a href="http://amazebot.mohawkcollege.ca">amazebot.mohawkcollege.ca</a>) for the most up-to-date information and complete documentation.</p>
+
+<hr>
+<h2>Change Log</h2>
+<ul>
+<li class="version"><strong>Version 1.4 (2010-10-09): Initial release!</strong></li>
+</ul>
+
+<hr>
+<h2>Requirements</h2>
+
+<p>This program requires Java version 1.6. If you will be developing your own bot, this entire folder is a <a href="http://www.netbeans.org/">NetBeans</a> project (it was tested on version 6.9). Other IDEs could be used, but you'd be on your own in terms of getting it working.
+
+<hr>
+<h2>Bot Icon and Name</h2>
+
+<p>In the "./src/bots/SampelBot/" folder you will see a file called "icon.png". This is the image that will identify your bot, and you should replace it with one of your choosing. The image will be resized to be 80 by 80 pixels when loaded, but to avoid distortion we recommend that you prepare the image to the appropriate size in an image editing program (such as <a href="http://www.gimp.org/">GIMP</a>). Choose a nice image&mdash;it will be shown to the public during the competition!
+<p>Also note that in the source code you can designate a nickname for your bot--see the getName() method. The maximum length of this name is approximately 15 'x' characters (we can't be exact, since it depends on the font and characters used). If you are unsure whether your desired name will fit, send an email to me (<a href="mailto:aravin.duraikannan@mohawkcollege.ca">Aravin</a>) with the desired name and I'll check for you.
+
+Don't leave this to the last minute!
+<hr>
+<h2>Sharing Bots</h2>
+<p>If you want to let a friend run your bot (but not see the source code) you can <em>Clean and Build</em> your project, and send them the subfolder of &quot;./bots/&quot; that corresponds to your bot. Your friend can then drop that subfolder into their &quot;./bots/&quot; directory and run your bot from the Developer Module just as they would run their own.</p>
+<hr>
+<h2>Batch Mode</h2>
+<p>In addition to the GUI, the program can be run in a batch mode from the command line.
+This is useful for testing your bot on a large number of randomly generated mazes.
+<p>Invoke batch mode thusly:
+<pre>
+   java -jar AMazeBot2010.jar batch &lt;botname&gt; [options]</pre>
+<p>Where</p>
+<p>Where &lt;botname&gt; is the package name of your bot (e.g. &quot;SampleBot&quot;) and [options] can be any combination of:</p>
+<ul>
+  <li><strong>-i &lt;iterations&gt;</strong> &mdash; to specify number of mazes to run; &lt;iterations&gt; is a number; default is 50,000.</li>
+  <li><strong>-s &lt;sequence&gt;</strong> &mdash; to specify the sequence; &lt;sequence&gt; is a non-negative integer; default is random.</li>
+  <li><strong>-m &lt;maze type&gt;</strong> &mdash; to select the maze type; &lt;maze type&gt; is one of CB, GR, NS, RG, PR; default is Automatic.</li>
+  <li><strong>-d</strong> &mdash; to produce detailed action counts in CSV output.</li>
+</ul>
+<p>Note that the botname is case-sensitive; options are not. You can stop a batch at any time using CTRL-C and still get the results up to that point.</p>
+<p>The results of batch testing are stored in the &quot;./logs/&quot; folder. There are 2 files: &quot;&lt;botname&gt;_batch.csv&quot; and &quot;&lt;botname&gt;_batch.txt&quot;. The CSV file contains information about each maze run and can be loaded directly into a spreadsheet for analysis. The TXT file contains the same summary information that is shown on the console after a batch. These files will be overwritten with each new batch.</p>
+<p>There is a single parameter in the INI file that affects batch mode&mdash;the "batch_timeout" key under the "BATCH" section. It is the maximum number of seconds to allow a bot to run before considering it caught in an infinite loop, and terminating it. In the GUI you have the "Abort Test" button to interrupt the bot at any time, but of course in batch mode the system itself has to prevent a bot from running forever. The default value for this timeout is 5 seconds; it can be as low as 1s and high as 60s. If your bot is just slow in processing (for example if you're writing a map to a file every iteration of your main loop) you can increase this value.</p>
+
+<hr>
+<h2>Contact Information</h2>
+
+<p>Please submit all questions, bug reports, and suggestions regarding the program itself to <a href="mailto:aravin.duraikannan@mohawkcollege.ca">Aravin &lt;aravin.duraikannan@mohawkcollege.ca&gt;</a>.
+
+<p>For more general inquiries regarding the competition, please contact <a href="mailto:mark.yendt@mohawkcollege.ca">Mark Yendt &lt;mark.yendt@mohawkcollege.ca&gt;</a>.
+
+
+<hr>
+<p>AMazeBot is &copy; 2011 by <a href="http://mohawkcollege.ca">Mohawk College</a>.
+</body>
+</html>
